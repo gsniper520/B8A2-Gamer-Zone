@@ -80,6 +80,8 @@ nav li a{
     border-radius: 40px;
     background:  #FF42A5;
     border: 0px;
+    color: wheat;
+    font-size: 15px;
 
 }
 
@@ -92,4 +94,6 @@ nav li a{
     border-radius: 40px;
     background:  #4EC5F7;
     border: 0px;
+    color: wheat;
+    font-size: 15px;
 }
