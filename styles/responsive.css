@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* header styles section */
+
+.menu-container{
+    background-color: aquamarine;
+    padding: 20px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menus{
+    display: flex;
+}
+
+.menus-item{
+    margin-right: 15px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+nav li a{
+    text-decoration: none;
+}
+
+.logo-photo{
+    width: 120px;
+}
+
+/* main section start here */
+.banner-img{
+    width: 450px;
+}
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 5px solid red; */
+}
+
+.banner-text{
+    background-image: url(/images/Group\ 14.png);
+    /* text-align: center; */
+    width: 600px;
+    height: 350px;
+    padding-top: 150px;
+    padding-left: 70px;
+    font-size: 20px;
+}
+
+.banner-Play{
+    font-size: 50px;
+}
+
+.banner-goat{
+    font-size: 90px;
+}
+
+.signin{
+    display: inline-flex;
+    padding: 11px 30px;
+    margin-top: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 40px;
+    background:  #FF42A5;
+    border: 0px;
+
+}
+
+.gogogue{
+    display: inline-flex;
+    padding: 11px 30px;
+    margin-top: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 40px;
+    background:  #4EC5F7;
+    border: 0px;
+}
