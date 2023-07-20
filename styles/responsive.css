@@ -68,6 +68,7 @@ nav li a{
 }
 
 .banner-goat{
+    /* padding-bottom: 10px; */
     font-size: 90px;
     color: #FF42A5;
 }
@@ -288,10 +289,23 @@ nav li a{
 /* media screen start here */
 
 @media screen and (max-width:576px) {
+    .menu-container{
+        padding: 20px;
+        flex-direction: column;
+    }
+    .menus{
+        flex-direction: column;
+    }
     
 }
 
 
-@media screen and (min-width:576px) and (max-width:992) {
+@media screen and (min-width:576px) and (max-width:992px) {
+    .menu-container{
+        padding: 50px;
+    }
+    .menus{
+        flex-direction: column;
+    }
     
 }
