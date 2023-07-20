@@ -220,4 +220,67 @@ nav li a{
 
 /* footer section start here */
 
+.footer-section{
+    padding-top: 60px;
+}
 
+.footer-section-div{
+    padding-top: 70px;
+    /* width: 1920px; */
+    height: 470px;
+    background: #0B0223;
+}
+
+.footer-story{
+    color: #FFF;
+}
+
+.footer-logo{
+    text-align: center;
+}
+
+.footer-story{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+
+.footer-story li{
+    padding-top: 30px;
+    list-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: 400px;
+    font-size: 20px;
+}
+
+.footer-story li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.footer-mediea{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+
+.footer-policy{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 70px;
+}
+
+.footer-policy li{
+    list-style: none;
+}
+
+.footer-policy li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-copy{
+    text-align: center;
+    padding-top: 70px;
+    color: #FFF;
+}
