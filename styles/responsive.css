@@ -12,7 +12,7 @@
 /* header styles section */
 
 .menu-container{
-    background-color: aquamarine;
+    background-color: #fff;
     padding: 20px;
     list-style: none;
     display: flex;
@@ -186,4 +186,38 @@ nav li a{
     width: 218px;
     height: 265px;
 }
+
+/* sponsore section start here */
+
+.sponsore-icon{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.sponsore-section{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+    
+}
+
+.sponsore-icon-img{
+    padding: 15px;
+}
+
+.sponsore-icon:hover{
+    background-color: #FF42A5;
+    border-radius: 30px;
+    
+}
+
+.sponsore-icon-title a{
+    text-decoration: none;
+}
+
+/* footer section start here */
+
 
