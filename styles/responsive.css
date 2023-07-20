@@ -284,3 +284,14 @@ nav li a{
     padding-top: 70px;
     color: #FFF;
 }
+
+/* media screen start here */
+
+@media screen and (max-width:576px) {
+    
+}
+
+
+@media screen and (min-width:576px) and (max-width:992) {
+    
+}
